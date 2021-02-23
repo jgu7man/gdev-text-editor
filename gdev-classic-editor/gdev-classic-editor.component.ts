@@ -1,6 +1,6 @@
 import { BehaviorSubject } from 'rxjs';
 import { Component, OnInit, ViewChild, Output, EventEmitter, Input, Inject, PLATFORM_ID } from '@angular/core';
-import * as CKSource from '../../ckeditor/build/cksource';
+import * as CKSource from '../ckeditor/build/cksource';
 
 const ClassicEditor = CKSource.ClassicEditor;
 
@@ -53,6 +53,7 @@ export class GdevClassicEditorComponent implements OnInit {
   
 
   onBlurEditor( event ) {
+    // console.log(this.Content)
     this.getContent.emit(this.Content)
   }
 

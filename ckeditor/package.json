@@ -41,6 +41,9 @@
     "whitelistedNonPeerDependencies": [
       "."
     ],
-    "dest": "../../dist"
+    "dest": "./dist"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
   }
 }

@@ -85,6 +85,6 @@
     "whitelistedNonPeerDependencies": [
       "."
     ],
-    "dest": "../../dist"
+    "dest": "./dist"
   }
 }
